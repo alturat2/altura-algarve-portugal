@@ -1,0 +1,67 @@
+<table class="tabela-precos">
+
+            <thead>
+
+                <tr>
+
+                    <th>Período</th>
+
+                    <th>Preço</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+
+                    <td>Junho</td>
+
+                    <td>€ ---</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>1ª Quinzena de Julho</td>
+
+                    <td>€ ---</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>2ª Quinzena de Julho</td>
+
+                    <td>€ ---</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>1ª Quinzena de Agosto</td>
+
+                    <td>€ ---</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>2ª Quinzena de Agosto</td>
+
+                    <td>€ ---</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Setembro</td>
+
+                    <td>€ ---</td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
