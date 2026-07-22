@@ -332,3 +332,16 @@ elementos.forEach((elemento) => {
     observador.observe(elemento);
 
 });
+
+const botaoMenu = document.querySelector(".menu-toggle");
+const menu = document.querySelector("nav");
+
+if(botaoMenu){
+
+    botaoMenu.addEventListener("click",()=>{
+
+        menu.classList.toggle("ativo");
+
+    });
+
+}

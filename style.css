@@ -1465,6 +1465,62 @@ transition:all .3s ease;
 
 }
 
+/* ===========================
+   MENU RESPONSIVO
+=========================== */
+
+.menu-toggle{
+    display:none;
+    font-size:34px;
+    background:none;
+    border:none;
+    cursor:pointer;
+}
+
+@media(max-width:768px){
+
+header .container{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+}
+
+.menu-toggle{
+
+display:block;
+
+}
+
+nav{
+
+position:absolute;
+top:80px;
+left:0;
+width:100%;
+background:#fff;
+display:none;
+box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+}
+
+nav ul{
+
+display:flex;
+flex-direction:column;
+padding:20px;
+
+}
+
+nav.ativo{
+
+display:block;
+
+}
+
+}
+
 /*==================================================
 FIM DO STYLE.CSS
 ==================================================*/
