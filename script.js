@@ -336,12 +336,8 @@ elementos.forEach((elemento) => {
 const botaoMenu = document.querySelector(".menu-toggle");
 const menu = document.querySelector("nav");
 
-if(botaoMenu){
-
-    botaoMenu.addEventListener("click",()=>{
-
+if (botaoMenu) {
+    botaoMenu.addEventListener("click", function () {
         menu.classList.toggle("ativo");
-
     });
-
 }
