@@ -1411,6 +1411,60 @@ transition:all .3s ease;
 
 }
 
+/* ===========================
+   RESPONSIVO - TELEMÓVEL
+=========================== */
+
+@media (max-width: 768px) {
+
+  .container {
+    width: 92%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
+
+  .hero {
+    min-height: 70vh;
+    padding: 40px 20px;
+  }
+
+  .hero-content {
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .galeria {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .galeria img,
+  video {
+    width: 100%;
+    height: auto;
+  }
+
+  iframe {
+    width: 100%;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+}
+
 /*==================================================
 FIM DO STYLE.CSS
 ==================================================*/
