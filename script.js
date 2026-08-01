@@ -196,7 +196,7 @@ const whatsapp = document.createElement("a");
 
 whatsapp.className = "whatsapp-float";
 
-whatsapp.href = "https://wa.me/351962555018?text=Olá%20Paulo.%20Gostaria%20de%20obter%20informações%20sobre%20o%20apartamento.";
+whatsapp.href = "https://wa.me/351962555018?text=Olá%20Gostei%20do%20T2%20de%20Altura%20e%20pretendo%20saber%20a%20disponibilidade%20do%20apartamento.";
 
 whatsapp.target = "_blank";
 
